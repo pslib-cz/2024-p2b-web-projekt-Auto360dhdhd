@@ -12,11 +12,11 @@
 <body>
   <header class="site-header">
   <div class="container-flex">
-    <a href="index.html" class="logo">Galerie Momentum</a>
+    <a href="%BASE_URL%index.html" class="logo">Galerie Momentum</a>
     <nav>
       <ul class="nav-list">
-        <li><a href="vystavy.html">Výstavy</a></li>
-        <li class="separator"><a href="kontakty.html">Kontakty</a></li>
+        <li><a href="%BASE_URL%vystavy.html">Výstavy</a></li>
+        <li class="separator"><a href="%BASE_URL%kontakty.html">Kontakty</a></li>
       </ul>
     </nav>
   </div>
@@ -30,7 +30,7 @@
       <p class="text">Vítejte v Galerii Momentum - prostoru věnovaném současnému umění, kreativitě a živým myšlenkám.</p>
       <p class="text">Naším posláním je zachycovat prchavé okamžiky inspirace a přetvářet je v nezapomenutelné zážitky.</p>
       <p class="text">Přijďte zažít Momentum - chvíli, kdy se umění dotýká vaší duše.</p>
-      <button class="btn"><a href="vystavy.html">Aktuální výstavy</a></button>
+      <a class="btn" href="vystavy.html">Aktuální výstavy</a>
 
       <h2>Fotky prostor</h2>
     </section>
@@ -39,38 +39,37 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide picture">
-                    <a class="picture__link" href="%BASE_URL%images/interier1.webp">
-                        <img class="picture__image" src="%BASE_URL%images/interier1.webp" alt="interiér galerie">
-                    </a>
+                    <div class="picture__link" href="/images/interier1.webp">
+                        <img class="picture__image" src="/images/interier1.webp" alt="interiér galerie">
+                    </div>
                 </div>
                 <div class="swiper-slide picture">
-                    <a class="picture__link" href="%BASE_URL%images/interier2.webp">
-                        <img class="picture__image" src="%BASE_URL%images/interier2.webp" alt="interiér galerie">
-                    </a>
+                    <div class="picture__link" href="/images/interier2.webp">
+                        <img class="picture__image" src="/images/interier2.webp" alt="interiér galerie">
+                    </div>
                 </div>
                 <div class="swiper-slide picture">
-                    <a class="picture__link" href="%BASE_URL%images/interier3.webp">
-                        <img class="picture__image" src="%BASE_URL%images/interier3.webp" alt="interiér galerie">
-                    </a>
+                    <div class="picture__link" href="/images/interier3.webp">
+                        <img class="picture__image" src="/images/interier3.webp" alt="interiér galerie">
+                    </div>
                 </div>
                 <div class="swiper-slide picture">
-                    <a class="picture__link" href="%BASE_URL%images/interier4.webp">
-                        <img class="picture__image" src="%BASE_URL%images/interier4.webp" alt="interiér galerie">
-                    </a>
+                    <div class="picture__link" href="/images/interier4.webp">
+                        <img class="picture__image" src="/images/interier4.webp" alt="interiér galerie">
+                    </div>
                 </div>
                 <div class="swiper-slide picture">
-                    <a class="picture__link" href="%BASE_URL%images/interier5.webp">
-                        <img class="picture__image" src="%BASE_URL%images/interier5.webp" alt="interiér galerie">
-                    </a>
+                    <div class="picture__link" href="/images/interier5.webp">
+                        <img class="picture__image" src="/images/interier5.webp" alt="interiér galerie">
+                    </div>
                 </div>
             </div>
-            <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
             <div class="swiper-button-next"></div>
         </div>
     </div>
     <script type="module" src="/src/scripts/swiper.js"></script>
-    <script type="module" src="/src/scripts/main.js"></script>
+</main>
 </body>
 
 </html>

@@ -1,14 +1,14 @@
-import vituum from 'vituum'
+import { defineConfig } from 'vite';
+import { resolve } from 'path';
 
-export default {
-    plugins: [
-      vituum({
-        pages: {
-          normalizeBasePath: true
-        }, 
-        imports: {
-            paths: ['./src/styles/*/**', './src/scripts/*/**']
-        }
-      })
-    ],
+export default defineConfig({
+  build: {
+    rollupOptions: {
+      input: {
+        main: resolve(__dirname, 'index.html'),
+        about: resolve(__dirname, 'vystavy.html'),
+        contact: resolve(__dirname, 'kontakty.html')
+      }
+    }
   }
+});

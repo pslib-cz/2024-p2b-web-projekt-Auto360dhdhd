@@ -9,11 +9,11 @@
 <body>
 <header class="site-header">
   <div class="container-flex">
-    <a href="index.html" class="logo">Galerie Momentum</a>
+    <a href="%BASE_URL%index.html" class="logo">Galerie Momentum</a>
     <nav>
       <ul class="nav-list">
-        <li><a href="vystavy.html">Výstavy</a></li>
-        <li class="separator"><a href="kontakty.html"><b>Kontakty</b></a></li>
+        <li><a href="%BASE_URL%vystavy.html">Výstavy</a></li>
+        <li class="separator"><a href="%BASE_URL%kontakty.html"><b>Kontakty</b></a></li>
       </ul>
     </nav>
   </div>
@@ -47,18 +47,18 @@
 
 
 <div class="map-and-info">
-  <div><img class="picture__image" src="%BASE_URL%images/obrazek1.png"></div>
+  <div><img class="picture__image" src="/images/mapa.webp" alt="mapa lokace galerie"></div>
   <div class="info-box">
-    <p>📍:</p>
-    <p> Támhleta ulice 48/6,<br>
-    Praha 1, XX XXX</p>
-    <p>🕒:</p>
+    <p>📍</p>
+    <p> Belgická 196/38,<br>
+     120 00 Praha 2-Vinohrady</p>
+    <p>🕒</p>
     <p> po–pá: 9:00 – 19:00<br>
     so–ne: 11:00 – 19:00</p>
   </div>
 </div>
   </main>
 
-  <script src="/src/scripts/kontakty.js"></script>
+  <script type="module" src="src/scripts/kontakty.js"></script>
 </body>
 </html>

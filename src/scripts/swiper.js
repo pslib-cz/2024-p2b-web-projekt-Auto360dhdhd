@@ -24,7 +24,6 @@ function initOrDestroySwiper() {
       slidesPerView: 3,
       spaceBetween: 30,
         loop: true,
-
       });
     }
   } else {
