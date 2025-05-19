@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/src/styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie Momentum</title>
+
+</head>
+
+<body>
+  <header class="site-header">
+  <div class="container-flex">
+    <a href="index.html" class="logo">Galerie Momentum</a>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="vystavy.html">Výstavy</a></li>
+        <li class="separator"><a href="kontakty.html">Kontakty</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="container">
+    <section class="intro">
+      <h2>Galerie Momentum</h2>
+      <p class="tagline">Místo, kde se umění setkává s okamžikem</p>
+      <p class="text">Vítejte v Galerii Momentum - prostoru věnovaném současnému umění, kreativitě a živým myšlenkám.</p>
+      <p class="text">Naším posláním je zachycovat prchavé okamžiky inspirace a přetvářet je v nezapomenutelné zážitky.</p>
+      <p class="text">Přijďte zažít Momentum - chvíli, kdy se umění dotýká vaší duše.</p>
+      <button class="btn"><a href="vystavy.html">Aktuální výstavy</a></button>
+
+      <h2>Fotky prostor</h2>
+    </section>
+  </div>
+    <div class="app">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide picture">
+                    <a class="picture__link" href="%BASE_URL%images/obrazek1.png">
+                        <img class="picture__image" src="%BASE_URL%images/obrazek1.png" alt="Pozarni migrant">
+                    </a>
+                </div>
+                <div class="swiper-slide picture">
+                    <a class="picture__link" href="%BASE_URL%images/obrazek2.png">
+                        <img class="picture__image" src="%BASE_URL%images/obrazek2.png" alt="Amsterodam (pobřeží)">
+                    </a>
+                </div>
+                <div class="swiper-slide picture">
+                    <a class="picture__link" href="%BASE_URL%images/obrazek3.png">
+                        <img class="picture__image" src="%BASE_URL%images/obrazek3.png" alt="Trajekt do UK">
+                    </a>
+                </div>
+                <div class="swiper-slide picture">
+                    <a class="picture__link" href="%BASE_URL%images/obrazek4.png">
+                        <img class="picture__image" src="%BASE_URL%images/obrazek4.png" alt="Trajekt do UK">
+                    </a>
+                </div>
+                <div class="swiper-slide picture">
+                    <a class="picture__link" href="%BASE_URL%images/obrazek5.png">
+                        <img class="picture__image" src="%BASE_URL%images/obrazek5.png" alt="Trajekt do UK">
+                    </a>
+                </div>
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <script type="module" src="/src/scripts/swiper.js"></script>
+    <script type="module" src="/src/scripts/main.js"></script>
+</body>
+
+</html>
