@@ -9,7 +9,9 @@ Swiper na vybrané foto
 Nějaká ligatura na znak
 
 Výstavy
-LightGallery na výběr výstav
+CSS grid na výběr výstav
 
 Kontakty
 Screenshot mapy
+
+link na můj živý web: https://pslib-cz.github.io/2024-p2b-web-projekt-Auto360dhdhd/
