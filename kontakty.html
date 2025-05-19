@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakty - Galerie Momentum</title>
+  <link rel="stylesheet" crossorigin href="/2024-p2b-web-projekt-Auto360dhdhd/assets/styles-WCdPaDN_.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container-flex">
+    <a href="index.html" class="logo">Galerie Momentum</a>
+    <nav>
+      <ul class="nav-list">
+        <li><a href="vystavy.html">Výstavy</a></li>
+        <li class="separator"><a href="kontakty.html"><b>Kontakty</b></a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main class="container">
+    <h1>Kontakty</h1>
+    <p class="intro">
+      V případě dotazů či připomínek nás kontaktujte přes formulář či se přijďte zeptat přímo k nám na adresu.
+    </p>
+
+
+<form id="contact-form">
+  <label for="name" class="field-label">Jméno:</label>
+  <input type="text" id="name" name="name" placeholder="Jméno" required>
+
+  <label for="email" class="field-label">E-mail:</label>
+  <input type="email" id="email" name="email" placeholder="E-mail" required>
+
+  <label for="telefon" class="field-label">Telefon:</label>
+  <input type="tel" id="telefon" name="telefon" placeholder="Tel. číslo" required>
+
+  <label for="message" class="field-label">Zpráva:</label>
+  <textarea id="message" name="message" placeholder="Váš dotaz" rows="6" required></textarea>
+
+  <button class="btn">Odeslat</button>
+</form>
+
+
+
+
+
+<div class="map-and-info">
+  <div><img class="picture__image" src="/2024-p2b-web-projekt-Auto360dhdhd/images/obrazek1.png"></div>
+  <div class="info-box">
+    <p>📍:</p>
+    <p> Támhleta ulice 48/6,<br>
+    Praha 1, XX XXX</p>
+    <p>🕒:</p>
+    <p> po–pá: 9:00 – 19:00<br>
+    so–ne: 11:00 – 19:00</p>
+  </div>
+</div>
+  </main>
+
+  <script src="/src/scripts/kontakty.js"></script>
+</body>
+</html>
